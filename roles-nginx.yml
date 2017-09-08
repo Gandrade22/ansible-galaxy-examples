@@ -1,0 +1,8 @@
+---
+
+- name: configurando regra do nginx
+  hosts: nginx
+  roles:
+    - nginx
+
+...

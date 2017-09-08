@@ -1,0 +1,8 @@
+---
+- name: instalar nginx na última versão
+  apt: name=nginx state=latest update_cache=yes
+
+- name: garantir que o nginx está instalado
+  service: name=nginx state=started enabled=yes
+
+...

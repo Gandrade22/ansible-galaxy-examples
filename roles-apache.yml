@@ -1,0 +1,8 @@
+---
+
+- name: iniciando regras do apache
+  hosts: apache
+  roles:
+    - apache
+
+...
